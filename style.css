@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+  height: 100px;
+}
+.header {
+  background-color: #191919;
+  width: 100%;
+  height: 40px;
+}
+
+.container {
+  display: flex;
+}
+.main {
+  background-color: wheat;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+}
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+}
+.aside {
+  background-color: blueviolet;
+  width: 100px;
+  padding: 20px;
+}
+.lista {
+  list-style: none;
+}
+.footer {
+  background-color: #191919;
+  width: 100%;
+  height: 100px;
+}
